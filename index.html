@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <!------- CSS ------->
+    <link rel="stylesheet" href="assets/css/styles.css">
+                            <!----- Loglib ----->
+    <script>
+        const r = window.document.createElement("script");
+        r.type = "text/javascript";
+        r.async = !0;
+        r.src =
+        "https://cdn.jsdelivr.net/npm/@loglib/tracker@latest/dist/index.global.js";
+        const a = document.getElementsByTagName("script")[0];
+        a.parentNode.insertBefore(r, a);
+        r.onload = () => {
+        loglib.record({ host: "https://loglib.io", id:"suhejbfejziu" });
+        };
+    </script>
+                        <!-------- FAVICON ---------->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+                    <!-------- FONTAWESOME CDN -------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                        <!----BOXICON CDN----->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!---------- SCROLL REVEAL ---------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!----- PORTFOLIO DETAILS ------>
+    <meta name="developer" content="Suhejb Fejziu">
+    <meta name="description" content="Suhejb Fejziu - Portfolio">
+    <title>Suhejb Fejziu - Portfolio</title>
+</head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                <a href="#home" class="nav__logo"> Suhejb </a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"> <a href="#home" class="nav__link active"> Home </a></li>
+                        <li class="nav__item"> <a href="#skills" class="nav__link"> Skills </a></li>
+                        <li class="nav__item"> <a href="#qualification" class="nav__link"> Qualification </a></li>
+                        <li class="nav__item"> <a href="#projects" class="nav__link"> Projects </a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="about section" id="home">
+                <div class="about__container bd-grid">
+                    <div>
+                        <h2 class="section-title">Home</h2>
+                            <div class="about__text">
+                                <p>
+                                    Hello, I'm Suhejb Fejziu Frontend Developer with a passion for doing my best to create user-friendly web applications.
+                                    I have a suitable foundation in HTML, CSS, JavaScript, and React. 
+                                    I enjoy collaborating with others, working in a team-oriented environment, 
+                                    and always learning and staying up-to-date with the latest technologies and industry trends.
+                                    I am excited about taking on new challenges and growing.
+                                </p>
+                            </div>
+                            <div class="information-container">
+                                <div class="home__social">
+                                    <p class="reach-message">REACH ME ON</p>
+                                    <a href="mailto:fejziusuhejb12@gmail.com"  class="home__social-icon">
+                                    <i class="fa fa-envelope fa-xl"></i> Email</a>
+                                    <a href="https://www.linkedin.com/in/suhejbfejziu/" target="_blank" class="home__social-icon">
+                                    <i class="fa-brands fa-linkedin fa-xl"></i> Linkedin</a>
+                                </div>
+                                <div class="about-button__container">
+                                    <p class="cv-message">VIEW MY CV</p>
+                                    <a href="assets/cv/CV-Suhejb-Fejziu.pdf" target="_blank" class="about__btn">
+                                    <i class="fa-solid fa-file-pdf fa-xl"></i> PDF</a>
+                                    <a href="assets/cv/CV-Suhejb-Fejziu.docx" class="about__btn">
+                                    <i class="fa-solid fa-file-word fa-xl"></i> WORD</a>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="about__img">
+                        <picture>
+                            <source type="image/webp" srcset="assets/images/Suhejb-Profile-Image.webp">
+                            <img loading="lazy" src="assets/images/Suhejb-Profile-Image.png" alt="Suhejb's Portrait Photo">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+        <!--===== What I do =====-->
+            <section class="services section" id="services">
+                <h2 class="section-title">What I do</h2>
+                    <!--Services 1-->
+                <div class="services__container bd-grid">
+                        <div class="content__services">
+                            <i class="fa-solid fa-code services__icon"></i>
+                            <h1 class="services__title">Frontend <br> Development</h1>
+                            <span class="button--flex services__button">
+                                View more
+                                <i class="fa-solid fa-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Frontend Development</h4> 
+                                <i class="fa-solid fa-xmark services__modal-close"></i>
+                                <ol class="services__modal-services-grid">
+                                    <li class="services__modal-services">
+                                        <p>Collaborating with designers to translate visual designs into functional user interfaces.</p>
+                                    </li>
+                                    <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                                    <li class="services__modal-services">
+                                        <p>Using HTML, CSS, Tailwind, React, and JavaScript to build and style user interface elements</p>
+                                    </li>
+                                    <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                                    <li class="services__modal-services">
+                                        <p>Implementing responsive design techniques to ensure the product looks and functions well across different devices and screen sizes. </p>
+                                    </li>
+                                    <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                                    <li class="services__modal-services">
+                                        <p>Testing and debugging the product to ensure it meets the desired specifications and performs as expected.</p>
+                                    </li>
+                                </ol> 
+                            </div>
+                        </div>
+                                                <!--Services 2-->
+                    <div class="content__services">
+                        <i class="fa-solid fa-layer-group services__icon"></i>
+                        <h1 class="services__title">Graphic <br> Designing</h1>
+                        <span class="button--flex services__button">
+                                        View more
+                        <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </span>
+                    </div>
+                            <div class="services__modal">
+                                <div class="services__modal-content">
+                                    <h4 class="services__modal-title">Graphic Designing</h4>
+                                    <i class="fa-solid fa-xmark services__modal-close"></i>
+                                    <ol class="services__modal-services-grid">
+                                        <li class="services__modal-services">
+                                            <p>Collaborating with clients to determine the scope and requirements of a project.</p>
+                                        </li>
+                                        <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                                        <li class="services__modal-services">
+                                            <p>Develop illustrations, logos, and other designs using <i>Canva.</i></p>
+                                        </li>
+                                        <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                                        <li class="services__modal-services">
+                                            <p>Presenting design concepts to clients for feedback and revisions.</p>
+                                        </li>
+                                    </ol> 
+                                </div>
+                            </div>
+                    </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="skills__container">
+                        <div class="skills__data">
+                                <i class="fa-brands fa-html5 skills__icon"></i>
+                                <p class="skills__name">HTML</p>
+                        </div>
+                        <div class="skills__data">
+                                <i class="fa-brands fa-css3-alt skills__icon"></i>
+                                <p class="skills__name">CSS</p>
+                        </div>
+                        <div class="skills__data">
+                                <i class='bx bxl-tailwind-css skills__icon'></i>
+                                <p class="skills__name">Tailwind</p>
+                        </div>
+                        <div class="skills__data">
+                                <i class="fa-brands fa-js skills__icon"></i>
+                                <p class="skills__name">JavaScript</p>
+                        </div>
+                        <div class="skills__data">
+                                <i class="fa-brands fa-react skills__icon"></i>
+                                <p class="skills__name">React</p>
+                        </div>
+                        <div class="skills__data">
+                                <i class="fa-brands fa-github skills__icon"></i>
+                                <p class="skills__name">GitHub</p>
+                        </div>
+                </div>
+            </section>
+
+            <!--======== QUALIFICATION ===========-->
+
+            <section class="qualification section" id="qualification">
+                <h2 class="section-title">Qualification</h2>
+                    <div class="qualification__tabs bd-grid">
+                        <button disabled class="qualification__button button" data-target="#education">
+                            <i class="fa-solid fa-graduation-cap fa-lg"></i>
+                            Education
+                        </button>
+                        <button class="qualification__button button qualification__active" data-target="#work">
+                            <i class="fa-solid fa-certificate fa-lg"></i>
+                            Certifications
+                        </button>
+                    </div>
+                <div class="qualification__container container">
+                    <div class="qualification__sections">
+                        <!--=============== QUALIFICATION EDUCATION===============-->
+                        <div class="qualification__content" data-content id="education">
+                            <!--=============== QUALIFICATION 1 ===============-->
+                            <div class="qualification__data">
+                                <div class="qualification__border">
+                                    <h3 class="qualification__title">(Education Name)</h3>
+                                    <span class="qualification__subtitle">(Education Field)</span>
+                                    <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                                    <a class="qualification__certificate" href="#">(Status)<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--=============== QUALIFICATION 2 ===============-->
+
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+
+                                <!-- <div class="qualification__border">
+                                    <h3 class="qualification__title">Field of study</h3>
+                                    <span class="qualification__subtitle">Name of School</span>
+                                    <div class="qualification__calendar">
+                                        <i class='bx bx-calendar'></i>
+                                        0000 - 0000
+                                    </div>
+                                    <a class="qualification__certificate" target="_blank" href="assets/certificates/${pathofcertificate}"> View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <!--=============== QUALIFICATION CERTIFICATES ===============-->
+
+                        <div class="qualification__content qualification__active" data-content id="work">
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div class="qualification__border">
+                                    <h3 class="qualification__title">Scrimba - The Frontend Developer Career Path</h3>
+                                    <ol class="qualification__description">
+                                        <li>I participated in 70 hours of coursework strengthening these technologies HTML, CSS, JavaScript, React, APIs, Responsive Design, UI Design, and Git for more dynamic projects.</li>
+                                        <li>While learning, we have coding challenges and dozens of real-world projects, which make the course more attractive and allow us to practice what I learned.</li>
+                                    </ol>
+                                    <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                                    <a class="qualification__certificate" href="https://scrimba.com/certificate/ua2QaMTL/gfrontend" target="_blank"> Open Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+
+                            <!------------------------------------------->
+
+                            <div class="qualification__data">
+                                <div class="qualification__border">
+                                    <h3 class="qualification__title">PBCAcademy - Software Engineering</h3>
+                                    <ol class="qualification__description">
+                                        <li>I participated in 40 hours of coursework covering Software Development Methodologies (Waterfall, Agile, Scrum).</li>
+                                        <li>Working as a group, we managed to work on a project called “E-Voting,” where we developed the processes step by step.</li>
+                                        <li>After successfully passing the final test score of 35/40 and completing the tasks, I reached certification as a Software Engineer.</li>
+                                    </ol>
+                                    <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                                    <a class="qualification__certificate" href="assets/certifications/CERTIFICATE OF COMPLETION - Software Engineer.pdf" target="_blank"> Open Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--------------------------------------------->
+
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+
+                                <div class="qualification__border">
+                                    <h3 class="qualification__title">Shkolla Digjitale - Frontend Development</h3>
+                                    <ol class="qualification__description">
+                                        <li>I participated in 120 hours of coursework covering HTML, CSS, and JavaScript fundamentals with challenges and projects.</li>
+                                        <li>With the knowledge gained during the course, I created a landing page with the UI of other sites I was trying to do myself and reinforced that knowledge.</li>
+                                        <li>After regularly following the course and completing the tasks, I became certified as a Frontend Developer.</li>
+                                    </ol>
+                                    <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                                    <a class="qualification__certificate" target="_blank" href="assets/certifications/CERTIFICATE OF COMPLETION - Frontend Developer.pdf"> Open Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/suhejbfejziu/Certifications" target="_blank" class="certificate-gh"> View all my Certifications <i class="fa-solid fa-certificate fa-xl"></i></a>
+            </section>
+            <!--===== WORK =====-->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="work__container bd-grid">
+                    <div class="work__border">
+                        <picture>
+                            <source type="image/webp" srcset="assets/images/projects-images/vans-life.webp">
+                            <img loading="lazy" class="projects__img" src="assets/images/projects-images/vans-life.png" alt="Vans Life">
+                        </picture>
+                        <p class="title__project">Vans Life</p>
+                        <div class="project__skills">
+                            <p class="project__skills__text">HTML</p>
+                            <p class="project__skills__text">CSS</p>
+                            <p class="project__skills__text">JavaScript</p>
+                            <p class="project__skills__text">React</p>
+                            <p class="project__skills__text">React Router</p>
+                            <p class="project__skills__text">Mirage</p>
+                            <p class="project__skills__text">Firebase</p>
+                        </div>
+                        <div style="text-align: center; margin-top: 0.5em;">
+                            <p>Account for testing</p>
+                            <small>Email: suhejb@test.com / Password: suhejb</small>
+                        </div>
+                        <p class="project__description">Users can view available vans, filter them by various criteria, and choose to rent the one that suits their needs. They can also view the details of each van, such as its model, features, and rental price.</p>
+                        <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                        <div class="work-button__container">
+                            <a href="https://github.com/suhejbfejziu/vans-life" target="_blank" class="button__work"> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://vanslifee.netlify.app/" target="_blank" class="button__work"> Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work__border">
+                        <picture>
+                            <source type="image/webp" srcset="assets/images/projects-images/WizardMonsters.webp">
+                            <img loading="lazy" class="projects__img" src="assets/images/projects-images/WizardMonsters.png" alt="Wizard vs Monsters Battle">
+                        </picture>
+                        <p class="title__project">Wizard vs Monsters</p>
+                        <div class="project__skills">
+                            <p class="project__skills__text">HTML</p>
+                            <p class="project__skills__text">CSS</p>
+                            <p class="project__skills__text">JavaScript</p>
+                        </div>
+                        <p class="project__description">In an action-packed in this game, players control a wizard who must defeat three fierce monsters. The player must use strategy and skill to overcome the monsters and emerge victorious.</p>
+                        <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                        <div class="work-button__container">
+                            <a href="https://github.com/suhejbfejziu/WizardMonsters" target="_blank" class="button__work"> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://wizardvmonsters.netlify.app/" target="_blank" class="button__work"> Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work__border">
+                        <picture>
+                            <source type="image/webp" srcset="assets/images/projects-images/CardsPlay.webp">
+                            <img loading="lazy" class="projects__img" src="assets/images/projects-images/CardsPlay.png" alt="Cards Play App">
+                        </picture>
+                        <p class="title__project">Cards Play</p>
+                        <div class="project__skills">
+                            <p class="project__skills__text">HTML</p>
+                            <p class="project__skills__text">CSS</p>
+                            <p class="project__skills__text">JavaScript</p>
+                            <p class="project__skills__text">API</p>
+                        </div>
+                        <p class="project__description">A fun and interactive card game players can play against the computer in various popular card games. The game uses APIs to generate randomized card distributions, ensuring that each round is unique.</p>
+                        <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                        <div class="work-button__container">
+                            <a href="https://github.com/suhejbfejziu/Cards-Play" target="_blank" class="button__work"> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://cardsplay.netlify.app/" target="_blank" class="button__work"> Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work__border">
+                        <picture>
+                            <source type="image/webp" srcset="assets/images/projects-images/RestaurantApp.webp">
+                            <img loading="lazy" class="projects__img" src="assets/images/projects-images/RestaurantApp.png" alt="Food Ordering App">
+                        </picture>
+                        <p class="title__project">Food Ordering App</p>
+                        <div class="project__skills">
+                            <p class="project__skills__text">HTML</p>
+                            <p class="project__skills__text">CSS</p>
+                            <p class="project__skills__text">JavaScript</p>
+                        </div>
+                        <p class="project__description">Food Ordering is a web application project that allows users to order food by clicking on the "+" icon to select the items they want to pay for.</p>
+                        <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                        <div class="work-button__container">
+                            <a href="https://github.com/suhejbfejziu/Food-Ordering" target="_blank" class="button__work"> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://shop-orderingfood.netlify.app/dist" target="_blank" class="button__work"> Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work__border">
+                        <picture>
+                            <source type="image/webp" srcset="assets/images/projects-images/MemeGenerator.webp">
+                            <img loading="lazy" class="projects__img" src="assets/images/projects-images/MemeGenerator.png" alt="Meme Generator App">
+                        </picture>
+                        <p class="title__project">Meme Generator</p>
+                        <div class="project__skills">
+                            <p class="project__skills__text">HTML</p>
+                            <p class="project__skills__text">CSS</p>
+                            <p class="project__skills__text">JavaScript</p>
+                            <p class="project__skills__text">React</p>
+                            <p class="project__skills__text">API</p>
+                        </div>
+                        <p class="project__description">Meme Generator is a web application to allow users to create and share memes. The application features an intuitive and user-friendly interface, which makes it easy for users to create memes.</p>
+                        <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                        <div class="work-button__container">
+                            <a href="https://github.com/suhejbfejziu/Meme-Generator" target="_blank" class="button__work"> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://generator-joke.netlify.app/" target="_blank" class="button__work"> Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work__border">
+                        <picture>
+                            <source type="image/webp" srcset="assets/images/projects-images/TenziesGame.webp">
+                            <img loading="lazy" class="projects__img" src="assets/images/projects-images/TenziesGame.png" alt="Tenzies Game">
+                        </picture>
+                        <p class="title__project">Tenzies Game</p>
+                        <div class="project__skills">
+                            <p class="project__skills__text">HTML</p>
+                            <p class="project__skills__text">CSS</p>
+                            <p class="project__skills__text">JavaScript</p>
+                            <p class="project__skills__text">React</p>
+                        </div>
+                        <p class="project__description">Tenzies Game is a web application that allows users to play a dice game called Tenzies. The game is simple and can be played by people of all ages, a choice for family game nights or casual get-togethers.</p>
+                        <hr style="height:0.5px;border:none;color:#c0c0c0;background-color:#c0c0c0;">
+                        <div class="work-button__container">
+                            <a href="https://github.com/suhejbfejziu/Tenzies-Game" target="_blank" class="button__work"> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://tenziegames.netlify.app/" target="_blank" class="button__work"> Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                    <a href="https://github.com/suhejbfejziu?tab=repositories" target="_blank" class="projects__gh"> View more on GitHub <i class="fa-brands fa-github fa-xl"></i></a>
+            </section>
+    </main>
+
+    <footer>Suhejb Portfolio &copy;&nbsp;<span id="year"></span></footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
